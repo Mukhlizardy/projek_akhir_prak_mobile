@@ -12,11 +12,13 @@ class HomePage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
+            alignment: Alignment.center,
             width: 100,
             height: 100,
             child: Image.asset("images/logo.png"),
           ),
           Container(
+            alignment: Alignment.center,
             child: Stack(
               children: [
                 Text(
@@ -40,6 +42,7 @@ class HomePage extends StatelessWidget {
             ),
           ),
           Container(
+            alignment: Alignment.center,
             child: ElevatedButton(
               child: Text('Login'),
               onPressed: () {
