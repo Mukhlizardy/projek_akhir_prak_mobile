@@ -8,11 +8,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
             width: 100,
             height: 100,
-            child: Image.asset("images/logo.avif"),
+            child: Image.asset("images/logo.png"),
           ),
           Container(
             child: Stack(
