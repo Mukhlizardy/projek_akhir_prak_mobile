@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/login_screen.dart';
 import 'screens/home_screen.dart';
+import 'screens/product_screen.dart';
 
 void main() {
   runApp(GroceryApp());
@@ -19,6 +20,7 @@ class GroceryApp extends StatelessWidget {
       routes: {
         '/login': (context) => LoginScreen(),
         '/home': (context) => HomeScreen(),
+        '/products': (context) => ProductScreen(),
       },
     );
   }
