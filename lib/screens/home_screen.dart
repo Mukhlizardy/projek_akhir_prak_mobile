@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../screens/product_screen.dart';
-import '../screens/cart_screen.dart';
-import '../screens/history_screen.dart';
+import 'product_screen.dart';
+import 'cart_screen.dart';
+import 'history_screen.dart';
 import '../api/local_auth.dart';
 
 class HomeScreen extends StatelessWidget {
