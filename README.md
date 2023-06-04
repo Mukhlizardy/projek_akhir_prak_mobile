@@ -1,6 +1,7 @@
 # projek_akhir
 
-A new Flutter project.
+Nama    : Muhammad Rizqi
+NIM     : 123190083
 
 ## Getting Started
 
